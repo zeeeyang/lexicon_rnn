@@ -1,6 +1,6 @@
 #Introduction
 This fold contains code and data to replicate the cross-domain experiments. 
-[binary_cnn/lexicon2/LexiconLambdaDecoder.cc](binary_cnn/lexicon2/LexiconLambda.cc) is the main code.  
+[binary_cnn/lexicon2/LexiconLambdaDecoder.cc](../binary_task/binary_cnn/lexicon2/LexiconLambda.cc) is the main code.  
  + data: data folder
  + exp: scripts folder 
 
