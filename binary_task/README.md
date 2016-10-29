@@ -5,18 +5,17 @@ This fold contains code and data to replicate the experiments for the binary cla
  + exp: scripts folder 
 
 #Usage
-1. Complie  
+ 1. Complie  
 ```
 cd binary_cnn
 ./cmake.sh
 ```
   
-2. Run  
+ 2. Run  
 Assume you are in the *binary_task* folder.   
 
 ```
 cd exp
-
 ```
   
 Train with **SD-Lex**  
