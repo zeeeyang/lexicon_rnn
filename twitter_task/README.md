@@ -5,13 +5,13 @@ This fold contains code and data to replicate the experiments for the binary cla
  + exp: scripts folder 
 
 #Usage
-1. Complie  
+###Complie  
 ```
 cd twitter_cnn
 ./cmake.sh
 ```
 
-2. Run  
+###Run  
 Assume you are in the *twitter_task* folder. 
 
 ```
@@ -29,7 +29,7 @@ Train with **S140-Lex**
 ```
 train_s140.sh
 ```
-
+###Accuracy
 You can use 
 ```
 grep Accuracy *.log

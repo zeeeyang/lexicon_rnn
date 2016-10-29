@@ -5,13 +5,13 @@ This fold contains code and data to replicate the experiments for the fine-grain
  + exp: scripts folder 
 
 #Usage
-1. Complie  
+###Complie  
 ```
 cd five_cnn
 ./cmake.sh
 ```
 
-2. Run  
+###Run  
 Assume you are in the *binary_task* folder. 
 
 ```
@@ -29,7 +29,7 @@ Train with **SWN-Lex**
 ```
 train_swn.sh
 ```
-
+###Accuracy
 You can use 
 ```
 grep Accuracy *.log

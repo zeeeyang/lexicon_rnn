@@ -5,7 +5,7 @@ This fold contains code and data to replicate the cross-domain experiments.
  + exp: scripts folder 
 
 #Usage
-1. Set Model Paths
+###Set Model Paths
 please change the model path in exp [run_decode_main.sh](./exp/run_decode_main.sh).
 ```
 ##This variable keep the model you generated in the binary task with SD-Lex. 
@@ -13,13 +13,13 @@ sd_model=
 ##This variable keep the model you generated in the binary task with SWN-Lex. 
 swn_model=
 ```
-2. Run  
+###Run  
 ```
 cd exp
 nohup ./run_decode_main.sh 1>decode.log 2>&1 & 
 ```
 
-3. Results
+###Results
 You can find three kinds of folders. 
  + sd.v2.sd\*: use SD-Lex both to train and test
  + sd.v2.swn\*: use SD-Lex to train, and use SWN-Lex to test 
