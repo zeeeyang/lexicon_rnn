@@ -7,7 +7,8 @@ Using this toolkits, you probably can:
  3. Produce potentially interpretable sentiment composition details, such as intensification and negation.   
  4. Use filtered embeddings and processed lexicons invovled in our paper.   
   
-The twitter dataset is available by an email request to the first author. 
+The twitter dataset is available by an email request to the first author.   
+Our implementation is based on [clab/cnn-v1](https://github.com/clab/cnn-v1). 
 #Usage
 Please see README.md in every task directory. 
 #Lexicons 
@@ -16,7 +17,6 @@ We provide four preprocessed sentiment lexicons used in our paper, including [TS
 We construct our pretrained embedding tables from [glove.840B.300d](http://nlp.stanford.edu/data/glove.840B.300d.zip).  
 [glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) and [glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) are embedding tables for the SST and SemEval dataset, respectively. 
 #Citation
----
 If you found our codes and preprocessed data are useful for your research, please cite
 
     @InProceedings{teng-vo-zhang:2016:EMNLP2016,

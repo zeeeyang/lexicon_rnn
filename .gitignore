@@ -9,18 +9,15 @@ Makefile
 CMakeCache.txt
 CMakeFiles
 cmake_install.cmake
-pycnn/pycnn.cpp
 
-# binaries
-examples/embed-cl
-examples/encdec
-examples/xor
-examples/xor-xent
-examples/rnnlm
-examples/nlm
-
-#data
-rnnlm/ptb-mikolov/
+# for easylogging
+build-*
+*.pro.user
+.DS_Store
+release.info
+bin/*
+logs/*
+experiments/*
 
 # Compiled Object files
 *.slo
@@ -56,3 +53,4 @@ rnnlm/ptb-mikolov/
 #
 *.orig
 *.log
+*.fmt
