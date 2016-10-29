@@ -7,7 +7,7 @@ Using this toolkits, you probably can:
  3. Produce potentially interpretable sentiment composition details, such as intensification and negation.   
  4. Use filtered embeddings and processed lexicons invovled in our paper.   
   
-The twitter dataset is available by an email request to the first author.   
+The twitter dataset is available by sending an email to the first author.   
 Our implementation is based on [clab/cnn-v1](https://github.com/clab/cnn-v1). 
 #Usage
 Please see README.md in every task directory. 
