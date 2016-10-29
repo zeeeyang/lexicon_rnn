@@ -10,30 +10,30 @@ This fold contains code and data to replicate the experiments for the binary cla
 cd binary_cnn
 ./cmake.sh
 ```
-
+  
 2. Run  
-Assume you are in the *binary_task* folder. 
+Assume you are in the *binary_task* folder.   
 
 ```
 cd exp
 
 ```
-
-Train with **SD-Lex**
-
+  
+Train with **SD-Lex**  
+  
 ```
 train_sd.sh
 ```
 
-Train with **SWN-Lex**
-
+Train with **SWN-Lex**  
+  
 ```
 train_swn.sh
 ```
 
-You can use 
+You can use   
 ```
 grep Accuracy *.log
 ```
-
+  
 to find out the classification accuracy. 
