@@ -440,9 +440,7 @@ int main(int argc, char** argv) {
         cerr << "Usage: " << argv[0] << " vec lex train.phrase train dev test\n";
         return 1;
     }
-    //cnn::Initialize(argc, argv);
-    cnn::Initialize(argc, argv, 1887293186);
-    //cnn::Initialize(argc, argv, 3657233929);
+    cnn::Initialize(argc, argv);
     vector<Example> training_examples, dev_examples, test_examples, training_sent_examples;
     string line;
     cerr << "Reading pretrained vector from " << argv[1] << "...\n";
