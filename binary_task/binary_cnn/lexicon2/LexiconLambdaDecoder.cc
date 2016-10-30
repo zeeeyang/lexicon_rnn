@@ -443,7 +443,6 @@ void evaluate(vector<Example>& examples, LSTMClassifier& lstmClassifier, int& nu
 }
 
 int main(int argc, char** argv) {
-    //cnn::Initialize(argc, argv, 2734282931);
     cerr<<"Command: " << endl;
     for(int i = 0; i< argc; i++)
         cerr<< i<<":\t" << argv[i] << endl; 
