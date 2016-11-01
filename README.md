@@ -15,7 +15,7 @@ Please see README.md in every task directory.
 We provide four preprocessed sentiment lexicons used in our paper, including [TS-Lex](./lexicons/sspe.lex2), [S140-Lex](./lexicons/sentiment140.lex), [SD-Lex](./lexicons/stanford.tree.lexicon) and [SWN-Lex](./lexicons/sentiwordnet.lex). 
 #Embeddings
 We construct our pretrained embedding tables from [glove.840B.300d](http://nlp.stanford.edu/data/glove.840B.300d.zip).  
-[glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) and [glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) are embedding tables for the SST and SemEval dataset, respectively. 
+[glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) and [glove.semeval.conj.pretrained.vec](./embeddings/glove.semeval.conj.pretrained.vec) are embedding tables for the SST and SemEval dataset, respectively. 
 #Citation
 If you found our codes and preprocessed data are useful for your research, please cite
 
