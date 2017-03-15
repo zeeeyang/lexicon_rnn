@@ -1,4 +1,4 @@
-#Lexicon RNN
+# Lexicon RNN
 **lexicon_rnn** is the code for my EMNLP 2016 paper [Context-Sensitive Lexicon Features for Neural Sentiment Analysis](https://aclweb.org/anthology/D16-1169). 
 It contains a context-sensitive **lexicon-based method** based on a simple weighted-sum model, using a  **recurrent  neural  network**  to  learn  the  sentiments strength,  intensification and negation of  lexicon  sentiments  in  composing  the  sentiment value of sentences.  
 Using this toolkits, you probably can:  
@@ -9,14 +9,14 @@ Using this toolkits, you probably can:
   
 The twitter dataset is available by sending an email to the first author.   
 Our implementation is based on [clab/cnn-v1](https://github.com/clab/cnn-v1). 
-#Usage
+# Usage
 Please see README.md in every task directory. 
-#Lexicons 
+# Lexicons 
 We provide four preprocessed sentiment lexicons used in our paper, including [TS-Lex](./lexicons/sspe.lex2), [S140-Lex](./lexicons/sentiment140.lex), [SD-Lex](./lexicons/stanford.tree.lexicon) and [SWN-Lex](./lexicons/sentiwordnet.lex). 
-#Embeddings
+# Embeddings
 We construct our pretrained embedding tables from [glove.840B.300d](http://nlp.stanford.edu/data/glove.840B.300d.zip).  
 [glove.sentiment.conj.pretrained.vec](./embeddings/glove.sentiment.conj.pretrained.vec) and [glove.semeval.conj.pretrained.vec](./embeddings/glove.semeval.conj.pretrained.vec) are embedding tables for the SST and SemEval dataset, respectively. 
-#Citation
+# Citation
 If you found our codes and preprocessed data are useful for your research, please cite
 
     @InProceedings{teng-vo-zhang:2016:EMNLP2016,
