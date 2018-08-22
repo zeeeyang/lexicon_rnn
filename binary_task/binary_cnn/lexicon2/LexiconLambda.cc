@@ -487,7 +487,7 @@ int main(int argc, char** argv) {
     {
         cerr<< word_dict.Convert(i) << endl;
     }
-    exit(0);
+    //exit(0);
 
 
     int dlc = 0;
